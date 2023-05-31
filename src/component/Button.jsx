@@ -14,7 +14,7 @@ function Button(props) {
             type={type}
             className={clsx(
                 className,
-                '[&>svg]:w-5 [&>svg]:h-5 [&>svg]:stroke-1 font-medium whitespace-nowrap inline-flex justify-center items-center gap-x-2 px-4 h-10 rounded-lg'
+                '[&>svg]:w-5 [&>svg]:h-5 [&>svg]:stroke-1 text-white font-medium whitespace-nowrap inline-flex justify-center items-center gap-x-2 px-4 h-10 rounded-lg'
             )}>
             {children || text}
         </button>
